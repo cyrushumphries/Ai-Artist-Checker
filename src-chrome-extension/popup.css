@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 12px;
+    width: 320px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* space between icon and text */
+    margin-bottom: 12px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.artist-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0 1px 0;
+}
+
+.artist-name {
+    font-weight: 500;
+}
+
+/*same colors as in icon */
+.artist-status.listed {
+    color: #fd9100; 
+}
+
+.artist-status.missing {
+    color: #45bb6a;
+}
+
+.artist-link {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.artist-link:hover {
+    text-decoration: underline;
+}
+
+.disclaimer {
+    margin-top: 12px;
+    font-size: 11px;
+    line-height: 1.4;
+    color: #888;
+}
+
+.disclaimer a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.disclaimer a:hover {
+    text-decoration: underline;
+}
+
+.tab-info {
+    display: block;
+    margin: 4px 0;
+    color: #3498db;
+}
+
+.tab-info p {
+    margin: 1px 0;
+    line-height: 1.2;
+}
