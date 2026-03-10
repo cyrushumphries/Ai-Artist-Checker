@@ -1,7 +1,9 @@
 # ![Render](./src-chrome-extension/icons/icon32.png) Ai-Artist-Checker (Spot-if-Ai)
 This browser extension helps you quickly check whether the artist you’re currently listening to on Spotify Web Player is listed as using AI. 
 
-Currently only Chrome and Edge are supported.
+Currently only Chrome and Edge are supported. Here are the respective links to the published extensions:
+Chrome: https://chromewebstore.google.com/detail/ai-artist-checker/djbdkbgedaccadoegpdlmphegojgccom
+Edge: https://microsoftedge.microsoft.com/addons/detail/ai-artist-checker/hgdpnlnmnmpddmfocjlbifmfhdlgjeme
 
 Example:
 ![Render](./Extension-Screenshot.png)
